@@ -27,7 +27,7 @@ However, TeamCity interprets this as 2 successful executions of A, and 1 success
 
 <br><br>
 
-I have included a docker-compose file with containers for TeamCity server and agent. I am using docker version 1.12.3 on OX X 10.11.4.
+I have included a docker-compose file with containers for TeamCity server and agent. I am using docker version 1.12.3 on OS X 10.11.4.
 Both containers can be started by cloning this repo
 and running the following commands:
 ```
