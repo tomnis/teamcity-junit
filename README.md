@@ -49,3 +49,5 @@ The Gradle and JUnit reports are both available as artifacts from that build. Th
 [here](http://localhost:8111/repository/download/JunitExample_JunitExample/2:id/build/reports/tests/test/index.html), and 
 the JUnit XML report is 
 [here](http://localhost:8111/repository/download/JunitExample_JunitExample/2:id/build/test-results/test/TEST-org.mccandless.ExampleTest.xml)
+
+I have opened a ticket with jetbrains https://youtrack.jetbrains.com/issue/TW-47953
