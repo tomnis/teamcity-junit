@@ -41,11 +41,9 @@ local file system. Once the server is up, build results for a build exhibiting t
 
 <br>
 
-
 Gradle correctly detects that `testC` failed, and failed the build, but TeamCity is incorrectly displaying results as 2 successful 
 executions of `testA` and 1 successful execution of `testB`. As far as TeamCity is concerned, there was no execution of `testC`, 
 and all executed tests were successful.
-all 
 
 The Gradle and JUnit reports are both available as artifacts from that build. The Gradle HTML report is 
 [here](http://localhost:8111/repository/download/JunitExample_JunitExample/2:id/build/reports/tests/test/index.html), and 
