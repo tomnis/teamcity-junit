@@ -35,8 +35,8 @@ cd docker
 docker-compose up
 ```
 The login credentials for TeamCity are admin/admin. I have configured the server to mount the code in this repo as a vcs root from the
-local file system. Once the server is up, build results for a build exhibiting this problem can be seen here:
-http://localhost:8111/viewLog.html?buildId=2&tab=buildResultsDiv&buildTypeId=JunitExample_JunitExample
+local file system. Once the server is up, build results for a build exhibiting this problem can be seen
+[here](http://localhost:8111/viewLog.html?buildId=2&tab=buildResultsDiv&buildTypeId=JunitExample_JunitExample)
 
 <br>
 
@@ -46,7 +46,7 @@ executions of `testA` and 1 successful execution of `testB`. As far as TeamCity 
 and all executed tests were successful.
 all 
 
-The Gradle and JUnit reports are both available as artifacts from that build. The Gradle report is here:
-http://localhost:8111/repository/download/JunitExample_JunitExample/2:id/build/reports/tests/test/index.html
-The JUnit report is here:
-http://localhost:8111/repository/download/JunitExample_JunitExample/2:id/build/test-results/test/TEST-org.mccandless.ExampleTest.xml
+The Gradle and JUnit reports are both available as artifacts from that build. The Gradle HTML report is 
+[here](http://localhost:8111/repository/download/JunitExample_JunitExample/2:id/build/reports/tests/test/index.html), and 
+the JUnit XML report is 
+[here](http://localhost:8111/repository/download/JunitExample_JunitExample/2:id/build/test-results/test/TEST-org.mccandless.ExampleTest.xml)
