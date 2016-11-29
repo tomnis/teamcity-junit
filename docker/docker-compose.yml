@@ -1,14 +1,14 @@
 version: '2'
 services:
     server:
-        image: jetbrains/teamcity-server
+        image: jetbrains/teamcity-server:10.0.3
         ports: 
             - '8111:8111'
         volumes:
             - './teamcity:/data/teamcity_server/datadir'
             - '..:/code'
     agent:
-        image: jetbrains/teamcity-agent
+        image: jetbrains/teamcity-agent:10.0.3
         volumes: 
             - '..:/code'
         links:
