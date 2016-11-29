@@ -13,4 +13,10 @@ interpreted by TeamCity:
 Included here is a small example that simulates this interleaving. See `Runner.scala` and `ExampleTest.scala`.
 
 When run from IntelliJ, this is correctly interpreted as 3 distinct tests with 1 failure:
+![intellij](screenshots/intellij.png)
 
+Gradle also correctly interprets this as 3 distinct tests with 1 failure:
+![gradle](screenshots/gradle.png)
+
+However, TeamCity interprets this as 2 successful executions of A, and 1 successful execution of B:
+![teamcity](screenshots/teamcity.png)
